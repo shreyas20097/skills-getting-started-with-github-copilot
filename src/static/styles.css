@@ -170,3 +170,21 @@ footer {
   font-style: italic;
   margin: 0;
 }
+
+.participants-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
